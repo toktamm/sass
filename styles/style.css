@@ -17,6 +17,10 @@ header button:hover {
   background-color: orange;
 }
 
+header button::after {
+  content: "Hellllooooo";
+}
+
 header .text-title {
   background-color: yellow;
 }

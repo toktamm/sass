@@ -10,6 +10,9 @@ header {
         &:hover {
             background-color: orange;
         }
+        &::after {
+            content: "Hellllooooo";
+        }
     }
     .text-title {
         background-color: yellow;
