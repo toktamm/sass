@@ -1,7 +1,7 @@
 @import "./variables";
 @import "./header";
 .contact {
-    @include flexFunction(row);
+    @include flexFunction(row, blue);
 }
 
 .contact button {

@@ -1,13 +1,14 @@
-@mixin flexFunction($direction) {
+@mixin flexFunction($direction, $background) {
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: $direction;
+    background: $background;
 }
 
 header {
-    @include flexFunction(column);
+    @include flexFunction(column, rgb(83, 248, 83));
     background: lightblue;
     height: 100vh;
     color: $textColor;
