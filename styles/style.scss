@@ -1,5 +1,9 @@
 @import "./variables";
 @import "./header";
+.contact {
+    @include flexFunction();
+}
+
 .contact button {
     background: $primaryBtn;
 }
