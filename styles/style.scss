@@ -1,4 +1,4 @@
-$primaryBtn: rgb(60, 100, 2);
+$primaryBtn: hsla(90, 92%, 64%, 0.8);
 header {
     background: lightblue;
     display: flex;
@@ -6,9 +6,9 @@ header {
 }
 
 header button {
-    background: chartreuse;
+    background: red;
 }
 
 .contact button {
-    background: chartreuse;
+    background: red;
 }
