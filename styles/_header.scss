@@ -7,7 +7,7 @@
 }
 
 header {
-    @include flexFunction();
+    @include flexFunction(column);
     background: lightblue;
     height: 100vh;
     color: $textColor;
