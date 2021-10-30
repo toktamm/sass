@@ -1,24 +1,6 @@
 $primaryBtn: hsla(305, 92%, 64%, 0.8);
 $textColor: hsl(212, 89%, 28%);
-header {
-    background: lightblue;
-    display: flex;
-    justify-content: center;
-    color: $textColor;
-    button {
-        background: $primaryBtn;
-        &:hover {
-            background-color: orange;
-        }
-        &::after {
-            content: "Hellllooooo";
-        }
-    }
-    .text-title {
-        background-color: yellow;
-    }
-}
-
+@import "./header";
 .contact button {
     background: $primaryBtn;
 }
