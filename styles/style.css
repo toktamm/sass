@@ -34,6 +34,10 @@ header .text-title, .contact .text-title {
   background-color: yellow;
 }
 
+.contact {
+  background-color: blue;
+}
+
 .contact button {
   background: rgba(248, 79, 234, 0.8);
 }
