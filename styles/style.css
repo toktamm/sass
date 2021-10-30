@@ -36,6 +36,7 @@ header .text-title, .contact .text-title {
 
 .contact {
   background-color: blue;
+  width: 80%;
 }
 
 .contact button {
