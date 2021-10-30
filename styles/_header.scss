@@ -9,7 +9,6 @@
 
 header {
     @include flexFunction(column, rgb(83, 248, 83));
-    background: lightblue;
     height: 100vh;
     color: $textColor;
     button {
