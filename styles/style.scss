@@ -7,6 +7,9 @@ header {
     color: $textColor;
     button {
         background: $primaryBtn;
+        &:hover {
+            background-color: orange;
+        }
     }
     .text-title {
         background-color: yellow;

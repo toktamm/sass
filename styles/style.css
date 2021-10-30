@@ -13,6 +13,10 @@ header button {
   background: rgba(248, 79, 234, 0.8);
 }
 
+header button:hover {
+  background-color: orange;
+}
+
 header .text-title {
   background-color: yellow;
 }
